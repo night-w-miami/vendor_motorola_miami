@@ -419,7 +419,7 @@
     <ctl name="IIR0 Enable Band3" value="0" />
     <ctl name="IIR0 Enable Band4" value="0" />
     <ctl name="IIR0 Enable Band5" value="0" />
-    <ctl name="IIR0 INP0 Volume" value="54" />
+    <ctl name="IIR0 INP0 Volume" value="40" />
     <ctl name="IIR0 INP0 MUX" value="ZERO" />
     <ctl name="IIR0 INP1 MUX" value="ZERO" />
     <ctl name="IIR0 INP2 MUX" value="ZERO" />
@@ -468,6 +468,7 @@
     <ctl name="aw882xx_algo_music_deepbuffer_switch" value="Off" />
     <ctl name="aw882xx_algo_music_fasttrack_switch" value="Off" />
 
+    <ctl name="Earpiece Dsense Enable" value="Off" />
     <!-- These are audio route (FE to BE) specific mixer settings -->
     <path name="gsm-mode">
         <ctl name="GSM mode Enable" value="ON" />
@@ -2536,7 +2537,6 @@
     <path name="voicemmode1-call handset">
         <ctl name="SEC_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
-        <ctl name="aw882xx_algo_handset_switch" value="On" />
     </path>
 
     <path name="voicemmode1-call headphones">
@@ -2608,7 +2608,6 @@
     <path name="voicemmode2-call handset">
         <ctl name="SEC_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
-        <ctl name="aw882xx_algo_handset_switch" value="On" />
     </path>
 
     <path name="voicemmode2-call headphones">
@@ -3471,7 +3470,7 @@
     </path>
 
     <path name="speaker-right">
-        <path name="speaker" />
+        <path name="speaker-mono" />
     </path>
 
     <path name="speaker-mono-2">
@@ -3530,13 +3529,13 @@
 
     <path name="sidetone-handset">
         <path name="sidetone-iir" />
-        <ctl name="IIR0 INP0 Volume" value="54" />
-        <ctl name="IIR0 INP0 MUX" value="DEC2" />
+        <ctl name="IIR0 INP0 Volume" value="40" />
+        <ctl name="IIR0 INP0 MUX" value="DEC1" />
         <ctl name="RX INT0 MIX2 INP" value="SRC0" />
     </path>
 
     <path name="afe-sidetone">
-        <ctl name="Voice Sidetone Enable" value="1" />
+        <ctl name="Voice Sidetone Enable" value="0" />
     </path>
 
     <path name="speaker-mic">
@@ -3572,6 +3571,7 @@
         <ctl name="aw_dev_0_switch" value="Disable" />
         <ctl name="aw_dev_1_switch" value="Enable" />
         <ctl name="aw_dev_1_prof" value="Receiver" />
+        <ctl name="Earpiece Dsense Enable" value="On" />
     </path>
 
     <path name="handset-mic">
@@ -3806,7 +3806,6 @@
 
     <path name="dmic-endfire">
         <path name="handset-dmic-endfire" />
-        <ctl name="IIR0 INP0 MUX" value="DEC2" />
     </path>
 
     <path name="handset-stereo-dmic-ef">

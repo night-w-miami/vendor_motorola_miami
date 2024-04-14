@@ -81,31 +81,31 @@
         ".corr_mat":{
           "owner": "sns_mmc56x3x",
           "0_0":{ "type": "flt", "ver": "0",
-            "data": "0.994472"
+            "data": "1.0"
           },
           "0_1":{ "type": "flt", "ver": "0",
-            "data": "0.103335"
+            "data": "0.0"
           },
           "0_2":{ "type": "flt", "ver": "0",
-            "data": "-0.0151685"
+            "data": "0.0"
           },
           "1_0":{ "type": "flt", "ver": "0",
-            "data": "0.0922025"
+            "data": "0.0"
           },
           "1_1":{ "type": "flt", "ver": "0",
-            "data": "0.9946685"
+            "data": "1.0"
           },
           "1_2":{ "type": "flt", "ver": "0",
-            "data": "-0.0274975"
+            "data": "0.0"
           },
           "2_0":{ "type": "flt", "ver": "0",
-            "data": "0.041299"
+            "data": "0.0"
           },
           "2_1":{ "type": "flt", "ver": "0",
-            "data": "0.021829"
+            "data": "0.0"
           },
           "2_2":{ "type": "flt", "ver": "0",
-            "data": "1.1053055"
+            "data": "1.0"
           }
         },
         ".bias":{
@@ -159,6 +159,30 @@
       },
       "11":{ "type": "flt", "ver": "0",
         "data": "0.0"
+      }
+    },
+     ".charging_comp":{
+      "owner": "sns_mmc56x3x",
+      "comp_mode":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "coff_x":{ "type": "flt", "ver": "0",
+        "data": "-0.005039002"
+      },
+      "coff_y":{ "type": "flt", "ver": "0",
+        "data": "0.001643752"
+      },
+      "coff_z":{ "type": "flt", "ver": "0",
+        "data": "0.005441576"
+      },
+      "check_interval":{ "type": "flt", "ver": "0",
+        "data": "200"
+      },
+      "buff_cnt":{ "type": "int", "ver": "0",
+        "data": "5"
+      },
+      "delay":{ "type": "flt", "ver": "0",
+        "data": "5.0"
       }
     }
   }

@@ -7,9 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/motorola/miami/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-focalservice \
     vendor/motorola/miami/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
-    vendor/motorola/miami/proprietary/vendor/bin/egis_ident:$(TARGET_COPY_OUT_VENDOR)/bin/egis_ident \
     vendor/motorola/miami/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/miami/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
     vendor/motorola/miami/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
@@ -50,12 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/motorola/miami/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
     vendor/motorola/miami/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
-    vendor/motorola/miami/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/motorola/miami/proprietary/vendor/etc/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
     vendor/motorola/miami/proprietary/vendor/etc/pwr/PowerFeatureConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/PowerFeatureConfig.xml \
     vendor/motorola/miami/proprietary/vendor/etc/pwr/VideoPowerOptFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/pwr/VideoPowerOptFeature.xml \
     vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_655.xml \
-    vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_tm_1080p_dsc_655.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_tm_1080p_dsc_655.xml \
     vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
     vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
     vendor/motorola/miami/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_144Hz_video_panel.xml \
@@ -186,26 +182,26 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/firmware/aw_skt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw_skt.bin \
     vendor/motorola/miami/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/miami/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov16a1q_eeprom.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_miami_gc02m1_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_miami_gc02m1_otp.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_miami_s5k4h7_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_miami_s5k4h7_otp.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_gc02m1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_gc02m1.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov16a1q.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov16a1q.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5k4h7.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kjn1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kjn1.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_gc02m1_sunwin.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_gc02m1_sunwin.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_ov16a1q_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_ov16a1q_ofilm.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_s5k4h7_qtech_ff.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_s5k4h7_qtech_ff.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_s5kjn1_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_s5kjn1_qtech.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_s5kjn1_sunny.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_s5kjn1_sunny.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b40_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b40_eeprom.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32c4c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32c4c_eeprom.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.flash.aw36515.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.flash.aw36515.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_hi1336.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_hi1336.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov32c4c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov32c4c.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_ov32b40.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_ov32b40.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensor.mot_s5kgw3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.mot_s5kgw3.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_hi1336_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_hi1336_ofilm.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_ov32b40_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_ov32b40_qtech.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_ov32c4c_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_ov32c4c_qtech.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.sensormodule.mot_miami_s5kgw3_qtech.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.mot_miami_s5kgw3_qtech.bin \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_gc02m1.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_ov16a1q.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_s5k4h7ff.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_s5k4h7ff.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_s5kjn1.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_s5kjn1.bin \
-    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_s5kjn1_2nd.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_s5kjn1_2nd.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_hi1336.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_hi1336.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_ov32b40.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_ov32b40.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_ov32c4c.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_ov32c4c.bin \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/com.qti.tuned.mot_miami_s5kgw3.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.mot_miami_s5kgw3.bin \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/components/com.arcsoft.node.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.mfnr.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/camera/components/com.arcsoft.node.supernightraw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.supernightraw.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/components/com.mot.node.dc_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.dc_capture.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/components/com.mot.node.dc_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.mot.node.dc_preview.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/components/com.qti.camx.chiiqutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.qti.camx.chiiqutils.so \
@@ -289,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.mcx.usecase.extension.so \
     vendor/motorola/miami/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/motorola/miami/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/motorola/miami/proprietary/vendor/lib64/hw/fingerprint.focaltech.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.default.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSWAD.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
