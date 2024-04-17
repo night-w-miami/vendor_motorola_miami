@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/firmware/aw_skt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw_skt.bin \
     vendor/motorola/miami/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/miami/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
+    vendor/motorola/miami/proprietary/vendor/lib/libmotoisdataqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotoisdataqueue.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kgw3_eeprom.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_hi1336_eeprom.so \
     vendor/motorola/miami/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b40_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64e_ov32b40_eeprom.so \
@@ -323,6 +324,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/lib64/libmmcamera_mfnr_t4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_mfnr_t4.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libmmcamera_pdpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera_pdpc.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmot_afd.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/libmotoisdataqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotoisdataqueue.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libmotohid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmotohid.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinedump.so \
