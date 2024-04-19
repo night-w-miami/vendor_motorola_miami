@@ -178,8 +178,34 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/etc/thermal-engine-miami.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-miami.conf \
     vendor/motorola/miami/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/miami/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_haptic.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_osc_rtp_12K_10s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_osc_rtp_12K_10s.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Attentive.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Attentive.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Bird_Loop.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Bird_Loop.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Hello.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Hello.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Momentum.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Momentum.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Moto.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Moto.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Natural.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Natural.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/aw8622x_rtp_Simple.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8622x_rtp_Simple.bin \
     vendor/motorola/miami/proprietary/vendor/firmware/aw882xx_pid_2113_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2113_acf.bin \
     vendor/motorola/miami/proprietary/vendor/firmware/aw_skt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw_skt.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/cps4019.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4019.hex \
+    vendor/motorola/miami/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
+    vendor/motorola/miami/proprietary/vendor/firmware/goodix-csot-gt9916S-23021401-63ec5983-miami.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916S-23021401-63ec5983-miami.bin \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b03 \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
+    vendor/motorola/miami/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_fw.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_fw.hex \
+    vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_parameter_0102.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_parameter_0102.hex \
+    vendor/motorola/miami/proprietary/vendor/firmware/mm8013c_parameter_0103.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/mm8013c_parameter_0103.hex \
+    vendor/motorola/miami/proprietary/vendor/firmware/mot_aw86006.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_aw86006.prog \
+    vendor/motorola/miami/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
     vendor/motorola/miami/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
     vendor/motorola/miami/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/motorola/miami/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
