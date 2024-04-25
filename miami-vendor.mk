@@ -317,6 +317,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/lib64/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSWAD.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libaidenoiser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiser.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_chi_utils.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
