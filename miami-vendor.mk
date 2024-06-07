@@ -201,6 +201,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
     vendor/motorola/miami/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
     vendor/motorola/miami/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
+    vendor/motorola/miami/proprietary/vendor/lib/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_distortion_correction.so \
+    vendor/motorola/miami/proprietary/vendor/lib/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_portrait_distortion_correction.so \
+    vendor/motorola/miami/proprietary/vendor/lib/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_super_night_raw.so \
     vendor/motorola/miami/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
     vendor/motorola/miami/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/miami/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
@@ -315,6 +318,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_chi_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_chi_utils.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libaidenoiserv2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaidenoiserv2.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_distortion_correction.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_portrait_distortion_correction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_portrait_distortion_correction.so \
+    vendor/motorola/miami/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
     vendor/motorola/miami/proprietary/vendor/lib64/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti_2_1.so \
